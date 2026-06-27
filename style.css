@@ -877,20 +877,21 @@ section h2 {
         flex-direction: column;
         gap: 30px;
     }
+}
 
-    .newsletter input {
-        width: 90%;
-        margin-bottom: 15px;
-    }
+.newsletter input {
+    width: 90%;
+    margin-bottom: 15px;
+}
 
-    .newsletter button {
-        margin-left: 0;
-    }
+.newsletter button {
+    margin-left: 0;
+}
 
-    .banner h2 {
-        font-size: 35px;
-    }
+.banner h2 {
+    font-size: 35px;
+}
 
-    .banner p {
-        font-size: 18px;
-    }
+.banner p {
+    font-size: 18px;
+}
