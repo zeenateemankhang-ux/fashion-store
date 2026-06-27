@@ -372,3 +372,11 @@ footer {
         font-size: 18px;
     }
 }
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
