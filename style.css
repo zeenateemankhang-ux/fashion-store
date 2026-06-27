@@ -862,22 +862,23 @@ section h2 {
         padding: 0;
         gap: 10px;
     }
-
-    .items {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .feature-boxes {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .stats {
-        flex-direction: column;
-        gap: 30px;
-    }
 }
+
+.items {
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-boxes {
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats {
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 .newsletter input {
     width: 90%;
