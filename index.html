@@ -3,37 +3,58 @@
 
 <head>
     <title>Eman's Fashion Store</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation Bar -->
+
     <nav>
+
         <h1>Eman's Fashion Store</h1>
 
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Sale</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#sale">Sale</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-    <section class="banner">
-    </section>
-    <section class="products" id="products">
 
+    </nav>
+
+
+    <!-- Banner -->
+
+    <section class="banner">
+
+        <h2>Summer Collection 2026</h2>
+
+        <p>Discover the latest fashion trends</p>
+
+        <button onclick="goToProducts()">
+            Shop Now
+        </button>
+
+    </section>
+
+
+    <!-- Products -->
+
+    <section class="products" id="products">
 
         <h2>Trending Fashion</h2>
 
         <div class="items">
 
             <div class="card">
-                <img src="images/dress1.jpg">
+                <img src="images/dress1.jpg" alt="Elegant Dress">
                 <h3>Elegant Dress</h3>
                 <p>$50</p>
-
                 <button class="buy-btn">Add to Cart</button>
             </div>
 
@@ -41,7 +62,6 @@
                 <img src="images/dress2.jpg" alt="Party Dress">
                 <h3>Party Dress</h3>
                 <p>$70</p>
-
                 <button class="buy-btn">Add to Cart</button>
             </div>
 
@@ -49,16 +69,13 @@
                 <img src="images/dress3.jpg" alt="Casual Outfit">
                 <h3>Casual Outfit</h3>
                 <p>$60</p>
-
                 <button class="buy-btn">Add to Cart</button>
-
             </div>
 
             <div class="card">
                 <img src="images/dress4.jpg" alt="Summer Collection">
                 <h3>Summer Collection</h3>
                 <p>$85</p>
-
                 <button class="buy-btn">Add to Cart</button>
             </div>
 
@@ -66,7 +83,6 @@
                 <img src="images/dress5.jpg" alt="Luxury Wear">
                 <h3>Luxury Wear</h3>
                 <p>$95</p>
-
                 <button class="buy-btn">Add to Cart</button>
             </div>
 
@@ -74,13 +90,15 @@
                 <img src="images/dress6.jpg" alt="Designer Dress">
                 <h3>Designer Dress</h3>
                 <p>$120</p>
-
                 <button class="buy-btn">Add to Cart</button>
             </div>
 
         </div>
 
     </section>
+
+
+    <!-- Features -->
 
     <section class="features">
 
@@ -106,7 +124,11 @@
         </div>
 
     </section>
-    <section>
+
+
+    <!-- Sale Offers -->
+
+    <section id="sale">
 
         <h2>Sale Offers</h2>
 
@@ -133,17 +155,24 @@
         </table>
 
     </section>
-    <section class="about">
+
+
+    <!-- About -->
+
+    <section class="about" id="about">
 
         <h2>About Us</h2>
 
         <p>
             Welcome to Eman's Fashion Store.
-            We provide trendy and affordable fashion
-            for everyone.
+            We provide trendy and affordable fashion for everyone.
         </p>
 
     </section>
+
+
+    <!-- Statistics -->
+
     <section class="stats">
 
         <div>
@@ -166,43 +195,50 @@
             <p>Customer Rating</p>
         </div>
 
-        <section class="newsletter">
-
-            <h2>Join Our Fashion Club</h2>
-
-            <p>
-                Subscribe to receive updates about new arrivals,
-                exclusive discounts, and fashion trends.
-            </p>
-
-            <input type="email" placeholder="Enter your email">
-
-            <button onclick="subscribeUser()">
-                Subscribe
-            </button>
-
-        </section>
+    </section>
 
 
-        <footer>
+    <!-- Newsletter -->
 
-            <h2>Eman's Fashion Store</h2>
+    <section class="newsletter">
 
-            <p>Follow Us</p>
+        <h2>Join Our Fashion Club</h2>
 
-            <div class="social-icons">
-                <span>📷 Instagram</span>
-                <span>📘 Facebook</span>
-                <span>🐦 Twitter</span>
-                <span>▶ YouTube</span>
-            </div>
+        <p>
+            Subscribe to receive updates about new arrivals,
+            exclusive discounts, and fashion trends.
+        </p>
 
-            <p>© 2026 Eman's Fashion Store</p>
+        <input type="email" placeholder="Enter your email">
 
-        </footer>
+        <button onclick="subscribeUser()">
+            Subscribe
+        </button>
+
+    </section>
 
 
-        <script src="script.js"></script>
+    <!-- Footer -->
+
+    <footer id="contact">
+
+        <h2>Eman's Fashion Store</h2>
+
+        <p>Follow Us</p>
+
+        <div class="social-icons">
+            <span>📷 Instagram</span>
+            <span>📘 Facebook</span>
+            <span>🐦 Twitter</span>
+            <span>▶ YouTube</span>
+        </div>
+
+        <p>© 2026 Eman's Fashion Store</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 
