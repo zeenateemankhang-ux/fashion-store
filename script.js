@@ -4,12 +4,6 @@ function goToProducts() {
     });
 }
 
-const subscribeBtn = document.querySelector(".newsletter button");
-
-subscribeBtn.onclick = function () {
-    alert("Thank you for subscribing!");
-};
-
 function subscribeUser() {
     alert("Thank you for subscribing to Eman's Fashion Club!");
 }

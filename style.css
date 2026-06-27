@@ -236,6 +236,9 @@ th {
 .stats {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+
 
     background: #ffeef4;
 
@@ -243,6 +246,14 @@ th {
     margin-top: 50px;
 
     text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 /* Newsletter */
